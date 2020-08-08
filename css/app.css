@@ -8,13 +8,13 @@
     max-height: 100vh;
     color: white;
     padding-left: 15rem;
-    background-image: url(/MilesOsborneV1/Images/Introduction/Snapshot_16.jpg);
+    background-image: url(/Images/Introduction/Snapshot_16.jpg);
     background-size: cover;
   }
 
   @media screen and (max-width: 600px) {
     .landing-page {
-      background-image: url(/MilesOsborneV1/Images/Introduction/Code_Screenshot.jpg);
+      background-image: url(/Images/Introduction/Code_Screenshot.jpg);
       background-size: cover;
     }
   }
@@ -300,14 +300,14 @@
   }
 
   .form-container {
-    background-image: url(/MilesOsborneV1/Images/scenery/blackwhiteplaceholder.jpg);
+    background-image: url(/Images/scenery/blackwhiteplaceholder.jpg);
     background-size: cover;
     background-repeat: space;
     height: 100vh;
   }
 
   .contact-form {
-    background-image: url(/MilesOsborneV1/Images/scenery/blackwhiteplaceholder.jpg);
+    background-image: url(/Images/scenery/blackwhiteplaceholder.jpg);
     background-size: cover;
     padding-top: 2.5rem;
   }
@@ -466,7 +466,7 @@
   }
 
   .hero-section {
-    /* background: url("/MilesOsborneV1/Images/Projects/s00003.jpg") 50% no-repeat; */
+    /* background: url("/Images/Projects/s00003.jpg") 50% no-repeat; */
     background-color: #0a0a0a;
     background-size: cover;
     height: 60vh;

@@ -8,7 +8,7 @@
     max-height: 100vh;
     color: black;
     padding-left: 15rem;
-    background: url("../Images/Introduction/Snapshot.png");
+    background: url("/Images/Introduction/Snapshot.png");
     background-size: cover;
   }
 
@@ -333,14 +333,14 @@
   }
 
   .form-container {
-    background-image: url("../Images/scenery/blackwhiteplaceholder.jpg");
+    background-image: url("/Images/scenery/blackwhiteplaceholder.jpg");
     background-size: cover;
     background-repeat: space;
     height: 100vh;
   }
 
   .contact-form {
-    background-image: url("../Images/scenery/blackwhiteplaceholder.jpg");
+    background-image: url("/Images/scenery/blackwhiteplaceholder.jpg");
     background-size: cover;
     padding-top: 2.5rem;
   }

@@ -1,7 +1,5 @@
 $(document).foundation()
 
-
-
 // window.scroll(0, 1);
 
 // // When the user scrolls the page, execute myFunction

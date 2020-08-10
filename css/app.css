@@ -346,6 +346,7 @@
 
   .form-container .grid-container {
     background-color: rgba(245, 245, 245, 0.987);
+    max-width: 50rem;
   }
 
   .form-container .grid-container address,

@@ -47,7 +47,7 @@ if ($fieldCheck === true) {
 }
 
 //Send email if both checks pass 
-if ($filterCheck == true and $fieldCheck == true) {
+if ($filterCheck == true) {
     $name = $_POST['name'];
     $email = $_POST['email'];
     $message = $_POST['message'];

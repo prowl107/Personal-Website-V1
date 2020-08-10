@@ -55,6 +55,11 @@ if ($filterCheck == true) {
     $subject = 'Contact Form Submission:' . $name . ", " . $email;
     $recipient = 'pxqsaklo@prowl107.com';
     mail($recipient, $subject, $message, $header);
+    if($mail){
+        echo "Message sent!";
+    }else{
+        echo "Message not sent and or not found!";
+    }
 }
 
 // 301 Moved Permanently

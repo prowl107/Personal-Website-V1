@@ -12,8 +12,10 @@
     max-height: 100vh;
     color: black;
     padding-left: 5rem;
-    background: url("/Images/Introduction/Snapshot.png");
-    background-size: cover;
+    background: rgb(15, 15, 15);
+    background: linear-gradient(0deg, rgba(15, 15, 15, 1) 0%, rgba(145, 145, 145, 1) 20%, rgba(255, 255, 255, 1) 90%);
+    /* background: url("/Images/Introduction/Snapshot.png"); */
+    background-size: auto;
   }
 
   @media screen and (max-width: 600px) {
@@ -280,14 +282,6 @@
  .img-filter{
   filter: saturate(125%);
   transition: all 0.25s ease;
- }
-
- #featured-image-1{
-
- }
-
- #feature-image-2{
-   
  }
 
   .featured-projects h3{

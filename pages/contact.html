@@ -39,8 +39,8 @@
         </div>
     </div>
 
-    <div class="form-container" novalidate>
-        <form class="contact-form" method="POST" action="formHandle.php" data-ajax="false">
+    <div class="form-container">
+        <form class="contact-form" id="form" method="POST" action="formHandle.php" data-ajax="false" data-abide novalidate>
             <div class="grid-container">
                 <div>
                     <h3 class="align-center-middle">Let's Get In Touch</h3>
@@ -56,27 +56,30 @@
                 <div class="grid-x grid-padding-x">
                     <div class="medium cell">
                         <label for="name">Name
-                            <input type="text" id="name" name="name">
+                            <input type="text" id="name" name="name" required>
+                            <span class="form-error">Please enter a name!</span>
                         </label>
                     </div>
                     <div class="medium cell">
                         <label for="subject">Subject
-                            <input type="text" id="subject" name="subject">
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="form-error">Please enter a subject</span>
                         </label>
                     </div>
                     <div class="medium cell">
                         <label for="email">Email
-                            <span class="error" aria-live="polite">Please enter a valid email</span>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" required>
+                            <span class="form-error">Please enter a valid email</span>
                         </label>
                     </div>
                     <div class="medium cell">
                         <label for="message">Message
-                            <textarea id="message" name="message" rows="5"></textarea>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="form-error">Please enter a message</span>
                         </label>
                     </div>
                     <div class="medium cell">
-                        <button class="button expanded" type="submit" name="Send">Send!</button>
+                        <button class="button expanded" id= "contact_send" type="submit" name="Send" disabled>Send!</button>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,26 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv = "refresh" content = "7; url = https://www.theosbornefamily.org" />
+    <title>Thank You</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <div>
+        <h2 class="thank-you-message">Message sent, thank you</h2>
+        <br>
+        <p>You will be redirected shortly</p>
+    </div>
+</body>
+</html>
+
+<?php
 function validateFields()
 {
     $items = ['name', 'email', 'message', 'subject'];

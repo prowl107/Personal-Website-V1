@@ -473,6 +473,10 @@
     height: 100%;
   }
 
+  .project-container .grid-container{
+    max-width: 1400px;
+  }
+
   @media screen and (max-width: 600px) {
     .project-container {
       padding: 1.4rem;
@@ -499,7 +503,14 @@
 
   .project p,
   ul {
-    padding-left: 2rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+  }
+
+  .project .orbit-wrapper .orbit-image{
+    max-width: inherit;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media screen and (max-width: 600px) {
@@ -509,11 +520,6 @@
       padding-left: 1rem;
       padding-right: 1rem;
     }
-
-    .project .orbit-wrapper {
-      padding-right: .9rem;
-    }
-
   }
 
   .orbit-previous,
@@ -524,6 +530,9 @@
   .project .orbit img {
     max-width: 600px;
     max-height: 300px;
+    margin-top: 1rem;
+    border: 1px solid transparent;
+    border-radius: 12px;
   }
 
   .hero-section {

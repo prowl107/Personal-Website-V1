@@ -14,11 +14,12 @@ if (document.URL.includes('contact.html')) {
     }
 }
 
-//Featured project image filter
+
 if (document.URL.includes('index.html')) {
     var button1 = document.getElementById('featured-button-1');
     var button2 = document.getElementById('featured-button-2');
 
+    //Featured project image filter
     button1.onmouseover = function () {
         document.getElementById('featured-image-1').style.filter = "contrast(130%)";
         document.getElementById('featured-image-1').style.transition = "all 0.25s ease-in-out";
@@ -35,5 +36,15 @@ if (document.URL.includes('index.html')) {
             document.getElementById('featured-image-2').style.filter = "contrast(100%)";
             document.getElementById('featured-image-2').style.transition = "all .25s ease-in-out";
         }
+    }
+
+    //Projects page button handle:
+    button1.onclick = function () {
+        document.location = "/pages/projects.html#featured-project-1";
+    }
+
+    //Projects page button handle:
+    button2.onclick = function () {
+        document.location = "/pages/projects.html#featured-project-2";
     }
 }

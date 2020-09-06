@@ -14,6 +14,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP&family=Open+Sans&family=Roboto&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css" />
+
 </head>
 
 <body>
@@ -40,8 +42,8 @@
 
     <div class="hero-section">
         <div class="hero-section-text">
-            <h1>The Things I Build</h1>
-            <h5>and more to come</h5>
+            <h1>My Projects</h1>
+            <h5>(Insert Future Builds Here)</h5>
         </div>
     </div>
 
@@ -49,7 +51,7 @@
     <div class="project-future">
         <div class="grid-x grid-margin-x">
             <ul class="cell medium-6">
-                <h3>Ideas I want to explore:</h3>
+                <h3>Ideas to explore:</h3>
                 <li>Supersonic Parachute Calculator app/software</li>
                 <li>Pathfinding algorithm visulization in Python</li>
                 <li>Live satellite database using APIs'</li>
@@ -68,67 +70,60 @@
         </div>
     </div>
 
-
-    <div class="project-container">
+    <div class="project-container" id="featured-project-2">
         <div class="project grid-container">
             <div class="grid-x grid-margin-x">
-                <div class="cell large-6 medium-12">
+                <div class="cell large-6 medium-12 project-description">
                     <h3>Arduino Lightsaber</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias soluta sint, accusantium
-                        reiciendis eos cupiditate voluptates ratione minus blanditiis cumque magnam illum, ipsa, nobis
-                        ipsam consectetur laboriosam facilis excepturi hic.</p>
+                    <p>The Arduino Lightsaber is a custom made and designed lightsaber replica using an Arduino Nano to
+                        control 288 LEDs and an unlimited amount of sound fonts.</p>
                     <ul>
-                        <li>Any additional work-funded by other sources-to be performed substantially the same time.
+                        <li>Powered by Arduino Nano Every microcontroller
                         </li>
-                        <li>Any additional work-funded by other sources-to be performed substantially the same time.
+                        <li>Designed all physical components in Autodesk Fusion 360
                         </li>
-                        <li>Any additional work-funded by other sources-to be performed substantially the same time.
+                        <li>
+                            3D printed handle in Nylon 12 through Xometry Service
+                        </li>
+                        <li>User-programmable sounds and on the fly color changing
                         </li>
                     </ul>
                 </div>
-                <div class="cell large-6">
-                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                <div class="cell large-6 medium-12">
+                    <div class="orbit" role="region" data-orbit>
                         <div class="orbit-wrapper">
-                            <div class="orbit-controls">
-                            </div>
                             <ul class="orbit-container">
                                 <li class="is-active orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/Projects/Arduino Lightsaber/20200616_011438.jpg"
-                                            alt="Space">
-
-                                    </figure>
+                                    <img class="orbit-image"
+                                        src="/Images/Projects/Arduino Lightsaber/20200504_194946.jpg">
                                 </li>
                                 <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/Projects/Arduino Lightsaber/20200615_010648.jpg"
-                                            alt="Space">
-
-                                    </figure>
+                                    <img class="orbit-image"
+                                        src="/Images/Projects/Arduino Lightsaber/20200616_225814.jpg">
                                 </li>
                                 <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/Projects/Arduino Lightsaber/20200504_194946.jpg"
-                                            alt="Space">
-
-                                    </figure>
+                                    <img class="orbit-image"
+                                        src="/Images/Projects/Arduino Lightsaber/20200616_011506.jpg">
                                 </li>
                                 <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/Projects/Arduino Lightsaber/20200513_183042.jpg"
-                                            alt="Space">
-
-                                    </figure>
+                                    <img class="orbit-image"
+                                        src="/Images/Projects/Arduino Lightsaber/20200616_225733.jpg">
                                 </li>
                             </ul>
                         </div>
                         <nav class="orbit-bullets">
-                            <button class="is-active" data-slide="0"></button>
-                            <button data-slide="1"></button>
-                            <button data-slide="2"></button>
-                            <button data-slide="3"></button>
+                            <button class="is-active" data-slide="0">
+                            </button>
+                            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
                         </nav>
                     </div>
+                </div>
+                <div class="cell grid-x grid-margin-x project-buttons"
+                    style="max-width: fit-content; margin-left: auto; margin-right: auto;">
+                    <a class="button cell large-auto is-hidden" href="#">Learn More<Button></Button></a>
+                    <a class="button cell large-auto is-hidden" href="#">Download Hilt Model<Button></Button></a>
                 </div>
             </div>
         </div>
@@ -137,8 +132,8 @@
     <div class="project-container">
         <div class="project grid-container">
             <div class="grid-x grid-margin-x">
-                <div class="cell large-6 medium-12">
-                    <h3>Project Spectre - Software Lead</h3>
+                <div class="cell large-6 medium-12 project-description">
+                    <h3>Project Spectre - Softeware Lead</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias soluta sint, accusantium
                         reiciendis eos cupiditate voluptates ratione minus blanditiis cumque magnam illum, ipsa, nobis
                         ipsam consectetur laboriosam facilis excepturi hic.</p>
@@ -151,50 +146,70 @@
                         </li>
                     </ul>
                 </div>
-                <div class="cell large-6">
-                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit
-                        style="max-height: 400px; max-width: 600px;">
+                <div class="cell large-6 medium-12">
+                    <div class="orbit" role="region" data-orbit>
                         <div class="orbit-wrapper">
-                            <div class="orbit-controls">
-                            </div>
                             <ul class="orbit-container">
                                 <li class="is-active orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/Projects/Project Spectre/Spectre Patch.png"
-                                            alt="Space">
-
-                                    </figure>
+                                    <img class="orbit-image" src="/Images/Projects/Project Spectre/Spectre Patch2.png">
+                                </li>
+                                <li class="orbit-slide">
+                                    <img class="orbit-image"
+                                        src="/Images/Projects/Project Spectre/Annotation 2020-08-29 142003.png">
                                 </li>
                                 <li class="orbit-slide">
                                     <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/scenery/20200306_180644.jpg"
-                                            alt="Space">
-
+                                        <img class="orbit-image"
+                                            src="/Images/Projects/Project Spectre/20200409_043622.jpg">
                                     </figure>
                                 </li>
                                 <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/scenery/20200306_180700.jpg"
-                                            alt="Space">
-
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/Projects/737108.jpg"
-                                            alt="Space">
-
-                                    </figure>
+                                    <img class="orbit-image" src="/Images/Projects/Project Spectre/20200611_015506.jpg">
                                 </li>
                             </ul>
                         </div>
                         <nav class="orbit-bullets">
-                            <button class="is-active" data-slide="0"></button>
-                            <button data-slide="1"></button>
-                            <button data-slide="2"></button>
-                            <button data-slide="3"></button>
+                            <button class="is-active" data-slide="0">
+                            </button>
+                            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
                         </nav>
                     </div>
+                </div>
+                <div class="cell grid-x grid-margin-x project-buttons"
+                    style="max-width: fit-content; margin-left: auto; margin-right: auto;">
+                    <a class="button cell large-auto is-hidden" href="#">Learn More<Button></Button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-container" id="featured-project-1">
+        <div class="project grid-container">
+            <div class="grid-x grid-margin-x">
+                <div class="cell large-6 medium-12 project-description">
+                    <h3>Global Satellite Networks Analysis</h3>
+                    <p>This is a technical report regarding the development of global satellite networks I developed
+                        in my technical report writing course. With the emergence of SpaceX’s Starlink and other LEO
+                        constellations, this report analyzes the viability of producing satellite networks with varying
+                        conditions. </p>
+                </div>
+                <div class="cell large-6 medium-12">
+                    <div class="orbit" role="region" data-orbit>
+                        <div class="orbit-wrapper">
+                            <ul class="orbit-container">
+                                <li class="is-active orbit-slide">
+                                    <img class="orbit-image"
+                                        src="/Images/Projects/Satellite Technical Report/Cover page test.png">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell grid-x grid-margin-x project-buttons" id="satellite-network-buttons"
+                    style="max-width: fit-content; margin-left: auto; margin-right: auto;">
+                    <a class="button cell large-auto" href="/resources/Osborne Miles Technical Report Final Revised.pdf" target="_blank">Download The Report<Button></Button></a>
                 </div>
             </div>
         </div>
@@ -203,130 +218,55 @@
     <div class="project-container">
         <div class="project grid-container">
             <div class="grid-x grid-margin-x">
-                <div class="cell large-6 medium-12">
-                    <h3>Satellite Network Technical Report</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias soluta sint, accusantium
-                        reiciendis eos cupiditate voluptates ratione minus blanditiis cumque magnam illum, ipsa, nobis
-                        ipsam consectetur laboriosam facilis excepturi hic.</p>
+                <div class="cell large-6 medium-12 project-description">
+                    <h3>Family Portfolio Website</h3>
+                    <p>My family portfolio website is a ongoing project dedicated to summarizing the history of the
+                        Osborne family and learning more web
+                        development techniques. I try to update the page as often as possible between classes and other
+                        projects. </p>
                     <ul>
-                        <li>Any additional work-funded by other sources-to be performed substantially the same time.
+                        <li>Link: <em><a href="https://www.theosbornefamily.org" target="_blank"
+                                    style="text-decoration: underline;">www.theosbornefamily.org</a> </em>
                         </li>
-                        <li>Any additional work-funded by other sources-to be performed substantially the same time.
+                        <li>Built using HTML, CSS, PHP, and JavaScript
                         </li>
-                        <li>Any additional work-funded by other sources-to be performed substantially the same time.
+                        <li>Implemented client and server-side form validation
+                        </li>
+                        <li>
+                            Added Content Management System allowing for family members to update the website
                         </li>
                     </ul>
                 </div>
-                <div class="cell large-6">
-                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit
-                        style="max-height: 400px; max-width: 600px;">
+                <div class="cell large-6 medium-12">
+                    <div class="orbit" role="region" data-orbit>
                         <div class="orbit-wrapper">
-                            <div class="orbit-controls">
-                            </div>
                             <ul class="orbit-container">
-                                <li class="is-active orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/Projects/Satellite Technical Report/web.space.oneweb.stage.jpg"
-                                            alt="Space">
-
-                                    </figure>
+                                <li class="orbit-slide">
+                                    <img class="orbit-image"
+                                        src="/Images/Projects/Family Portfolio Website/FamilyCrest_resize1.jpg">
                                 </li>
                                 <li class="orbit-slide">
                                     <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/scenery/20200306_180644.jpg"
-                                            alt="Space">
-
+                                        <img class="orbit-image" src="/Images/Projects/Family Portfolio Website/Kirby Dashboard resize.png">
                                     </figure>
                                 </li>
                                 <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/scenery/20200306_180700.jpg"
-                                            alt="Space">
-
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/Projects/737108.jpg"
-                                            alt="Space">
-
-                                    </figure>
+                                    <img class="orbit-image" src="/Images/Projects/Family Portfolio Website/Osborne Family History.png">
                                 </li>
                             </ul>
                         </div>
                         <nav class="orbit-bullets">
-                            <button class="is-active" data-slide="0"></button>
-                            <button data-slide="1"></button>
-                            <button data-slide="2"></button>
-                            <button data-slide="3"></button>
+                            <button class="is-active" data-slide="0">
+                            </button>
+                            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
                         </nav>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="project-container">
-        <div class="project grid-container">
-            <div class="grid-x grid-margin-x">
-                <div class="cell large-6 medium-12">
-                    <h3>Family Portfolio</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias soluta sint, accusantium
-                        reiciendis eos cupiditate voluptates ratione minus blanditiis cumque magnam illum, ipsa, nobis
-                        ipsam consectetur laboriosam facilis excepturi hic.</p>
-                    <ul>
-                        <li>Any additional work-funded by other sources-to be performed substantially the same time.
-                        </li>
-                        <li>Any additional work-funded by other sources-to be performed substantially the same time.
-                        </li>
-                        <li>Any additional work-funded by other sources-to be performed substantially the same time.
-                        </li>
-                    </ul>
-                </div>
-                <div class="cell large-6">
-                    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit
-                        style="max-height: 400px; max-width: 600px;">
-                        <div class="orbit-wrapper">
-                            <div class="orbit-controls">
-                            </div>
-                            <ul class="orbit-container">
-                                <li class="is-active orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/scenery/20191126_183846.jpg"
-                                            alt="Space">
-
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/scenery/20200306_180644.jpg"
-                                            alt="Space">
-
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/scenery/20200306_180700.jpg"
-                                            alt="Space">
-
-                                    </figure>
-                                </li>
-                                <li class="orbit-slide">
-                                    <figure class="orbit-figure">
-                                        <img class="orbit-image" src="/Images/Projects/737108.jpg"
-                                            alt="Space">
-
-                                    </figure>
-                                </li>
-                            </ul>
-                        </div>
-                        <nav class="orbit-bullets">
-                            <button class="is-active" data-slide="0"></button>
-                            <button data-slide="1"></button>
-                            <button data-slide="2"></button>
-                            <button data-slide="3"></button>
-                        </nav>
-                    </div>
+                <div class="cell grid-x grid-margin-x project-buttons"
+                    style="max-width: fit-content; margin-left: auto; margin-right: auto;">
+                    <a class="button cell large-auto is-hidden" href="#">Learn More <Button></Button></a>
+                    <a class="button cell large-auto is-hidden" href="#">View Code on Github<Button></Button></a>
                 </div>
             </div>
         </div>

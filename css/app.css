@@ -25,43 +25,36 @@ html * {
 
 #landing-text{
   margin-top: 2rem;
-  border: 2px solid white;
   color: whitesmoke;
-  width: max-content;
+  max-width: 100vw;
+  min-width: fit-content;
   height: max-content;
-  background-color: #770e0e;
+  position: absolute;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  bottom: 50vh;
 }
 
-/* .gradient-filter {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, rgba(255, 255, 255, .805) 65%, rgba(255, 0, 0, 0) 0);
-  padding-left: 4rem;
-} */
-
-/* @media screen and (max-width: 1000px) {
-  .gradient-filter {
-    background: linear-gradient(90deg, rgba(255, 255, 255, .805) 80%, rgba(255, 0, 0, 0) 0);
-  }
+#landing-text h3:nth-of-type(2){
+  border-top: 2px solid #9e0101;
+  width: fit-content;
 }
 
-
-@media screen and (max-width: 640px) {
-  .gradient-filter {
-    background: rgb(15, 15, 15);
-    background: linear-gradient(0deg, rgba(15, 15, 15, 1) 0%, rgba(145, 145, 145, 1) 20%, rgba(255, 255, 255, 1) 90%);
-  }
-} */
-
-.landing-page h1 {
-  /* padding-top: 15vh; */
+#landing-text h5{
+  font-style: italic;
+  width: fit-content;
+  padding-right: .5rem;
 }
 
 .landing-page .button {
   color: white;
   background-color: #770e0e;
-  /* margin-top: 5vh; */
+  margin-left: 2rem;
   border-radius: 25px;
+  bottom: 45vh;
+  position: absolute;
+  margin-top: 2rem;
 }
 
 #navbar {
@@ -599,14 +592,12 @@ a {
 }
 
 .hero-section {
-  /* background: url("Images/Projects/s00003.jpg") 50% no-repeat; */
   background-color: #0a0a0a;
   background-size: cover;
   height: 60vh;
   text-align: center;
   display: -webkit-flex;
   display: -ms-flexbox;
-  /* display: flex; */
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;

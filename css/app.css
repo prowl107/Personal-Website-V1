@@ -14,19 +14,32 @@ html * {
   max-width: 100vw;
   max-height: 100vh;
   color: black;
-  background: url(/Images/Introduction/Code_Screenshot.jpg);
+  background: rgb(0,0,0);
+  background: url(/Images/Introduction/pexels-danny-meneses-943096.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   z-index: 0;
 }
 
-.gradient-filter {
+#landing-text{
+  margin-top: 2rem;
+  border: 2px solid white;
+  color: whitesmoke;
+  width: max-content;
+  height: max-content;
+  background-color: #770e0e;
+}
+
+/* .gradient-filter {
   width: 100%;
   height: 100%;
   background: linear-gradient(90deg, rgba(255, 255, 255, .805) 65%, rgba(255, 0, 0, 0) 0);
   padding-left: 4rem;
-}
+} */
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
   .gradient-filter {
     background: linear-gradient(90deg, rgba(255, 255, 255, .805) 80%, rgba(255, 0, 0, 0) 0);
   }
@@ -38,16 +51,16 @@ html * {
     background: rgb(15, 15, 15);
     background: linear-gradient(0deg, rgba(15, 15, 15, 1) 0%, rgba(145, 145, 145, 1) 20%, rgba(255, 255, 255, 1) 90%);
   }
-}
+} */
 
 .landing-page h1 {
-  padding-top: 15vh;
+  /* padding-top: 15vh; */
 }
 
 .landing-page .button {
   color: white;
   background-color: #770e0e;
-  margin-top: 5vh;
+  /* margin-top: 5vh; */
   border-radius: 25px;
 }
 
@@ -364,16 +377,17 @@ html * {
   }
 }
 
-.form-container {
-  background-image: url("/Images/scenery/blackwhiteplaceholder.jpg");
+.form-container{
+  background-image: url("/Images/scenery/blackwhiteplaceholder.jpg") ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.contact-form {
   background-size: cover;
   background-repeat: space;
   height: 100vh;
-}
-
-.contact-form {
-  background-image: url("/Images/scenery/blackwhiteplaceholder.jpg");
-  background-size: cover;
   padding-top: 2.5rem;
   font-weight: 500;
 }

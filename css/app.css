@@ -514,7 +514,8 @@ a {
 
 .project-container .project {
   padding-top: 1rem;
-  background-color: #5a5a5a;
+  background-color: transparent;
+  border: 2.5px solid#731515;
 }
 
 @media screen and (max-width: 600px) {
@@ -570,7 +571,7 @@ a {
 .project-buttons a {
   min-width: 250px;
   background-color: transparent;
-  border: 2px solid white;
+  border: 2px solid grey;
   border-radius: 12px;
 }
 

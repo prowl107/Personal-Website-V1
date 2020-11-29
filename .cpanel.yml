@@ -1,6 +1,0 @@
-
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/pxqsaklo/milesosborne.com/
-    - /bin/cp -R * $DEPLOYPATH

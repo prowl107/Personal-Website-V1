@@ -32,7 +32,7 @@
         <ul class="menu menu-hover-lines align-left medium-horizontal dropdown"
           data-responsive-menu="accordion medium-dropdown">
           <li><a href="/resources/Miles Osborne Resume.pdf" target="_blank">Resume</a></li>
-          <li class="active"><a href="/index.html">Home</a></li>
+          <li><a href="/index.html">Home</a></li>
           <li><a href="/pages/projects.html">Projects</a></li>
           <li><a href="https://milesosborne.dev" target="_blank">Blog</a></li>
           <li><a href="/pages/contact.html">Contact</a></li>
@@ -52,98 +52,105 @@
     </div>
   </div>
 
-  <div class="main">
-    <div class="introduction" id="introduction-magellan" data-magellan-target="introduction-magellan">
-      <div class="grid-x">
-        <div class="cell large-6 small-12">
-          <h3>About Me</h3>
-          <p>
-            I’m Miles Osborne, a third-year Software Engineering student at Embry-Riddle Aeronautical
-            University. I started as an Aerospace Engineering major but my passion for computers and software influenced
-            my switch.
-          </p>
-          <p>
-            I am currently studying embedded systems development and trying to get hands on experience with electronics.
-            I
-            hope that by documenting the progress I make, I understand the topics more and potentially help others with
-            their own endeavors. Feel free to look around!
-          </p>
-        </div>
-        <div class="cell large-6 small-12">
-          <img class="" src="/Images/Introduction/IMG_2531.jpg" alt="">
-        </div>
-      </div>
-    </div>
-    <div class="competencies">
-      <h3>Skills & Technologies</h3>
-      <div class="cell grid-x">
-        <div class="cell large-3 medium-6">
-          <h4>Programming Languages</h4>
-          <ul>
-            <li>MATLAB</li>
-            <li>C</li>
-            <li>Java</li>
-            <li>Python</li>
-          </ul>
-        </div>
-        <div class="cell large-3 medium-6">
-          <h4>Web Development</h4>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Foundation Framework</li>
-          </ul>
-        </div>
-        <div class="cell large-3 medium-6">
-          <h4>Video Editing</h4>
-          <ul>
-            <li>Hitflim Express</li>
-            <li>Sony Vegas</li>
-          </ul>
-        </div>
-        <div class="cell large-3 medium-6">
-          <h4>3D Modeling/CAD</h4>
-          <ul>
-            <li>CATIA</li>
-            <li>Autodesk Fusion 360</li>
-          </ul>
+  <div class="main grid-x">
+    <section class="introduction cell" id="introduction-magellan" data-magellan-target="introduction-magellan">
+      <div class="containerL1">
+        <div class="grid-x">
+          <div class="cell large-6 small-12">
+            <h3>About Me</h3>
+            <p>
+              I’m Miles Osborne, a third-year Software Engineering student at Embry-Riddle Aeronautical
+              University. I started as an Aerospace Engineering major but my passion for computers and software
+              influenced
+              my switch.
+            </p>
+            <p>
+              I am currently studying embedded systems development and trying to get hands on experience with
+              electronics.
+              I
+              hope that by documenting the progress I make, I understand the topics more and potentially help others
+              with
+              their own endeavors. Feel free to look around!
+            </p>
+          </div>
+          <div class="cell large-6 small-12">
+            <img class="" src="/Images/Introduction/IMG_2531.jpg" alt="">
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <section class="competencies cell">
+      <div class="containerL1">
+        <h3>Skills & Technologies</h3>
+        <div class="cell grid-x">
+          <div class="cell large-3 medium-6">
+            <h4>Programming Languages</h4>
+            <ul>
+              <li>MATLAB</li>
+              <li>C</li>
+              <li>Java</li>
+              <li>Python</li>
+            </ul>
+          </div>
+          <div class="cell large-3 medium-6">
+            <h4>Web Development</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Foundation Framework</li>
+            </ul>
+          </div>
+          <div class="cell large-3 medium-6">
+            <h4>Video Editing</h4>
+            <ul>
+              <li>Hitflim Express</li>
+              <li>Sony Vegas</li>
+            </ul>
+          </div>
+          <div class="cell large-3 medium-6">
+            <h4>3D Modeling/CAD</h4>
+            <ul>
+              <li>CATIA</li>
+              <li>Autodesk Fusion 360</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-projects cell">
+      <div class="containerL1">
+        <div class="featured-projects-container">
+          <h3>Featured Projects</h3>
+          <div class="grid-x grid-padding-x large-up-2 medium-up-1">
+            <div class="card cell">
+              <img src="/Images/Projects/Satellite Technical Report/web.space.oneweb.stage.jpg" id="featured-image-1">
+              <div class="card-section">
+                <h4 id="featured-title-1">Global Satellite Network Analysis</h4>
+                <p>This is a technical report regarding the development of global satellite networks I developed in my
+                  technical report writing course. With the emergence of SpaceX’s Starlink and other LEO
+                  constellations,
+                  this report analyzes the viability of producing satellite networks with varying conditions.</p>
+                <a href="/pages/projects.html#featured-project-1" class=" button" id="featured-button-1"" class="
+                  button" id="featured-button-1">Learn More</a>
+              </div>
+            </div>
+            <div class="card cell">
+              <img src="/Images/Projects/Arduino Lightsaber/20201129_215414.jpg" id="featured-image-2">
+              <!-- <img src="/Images/Projects/Arduino Lightsaber/20200616_011515_edit.jpg" id="featured-image-2"> -->
+              <div class="card-section">
+                <h4 id="featured-title-2">Arduino Lightsaber</h4>
+                <p>The Arduino Lightsaber is a custom made and designed lightsaber replica using an Arduino Nano to
+                  control 288 LEDs and an unlimited amount of sound fonts.</p>
+                <a href="/pages/projects.html#featured-project-2" class="button" id="featured-button-2">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
-
-
-  <section class="featured-projects">
-    <h3>Featured Projects</h3>
-    <div class="featured-projects-container">
-      <div class="grid-x grid-margin-x large-up-2 medium-up-1">
-        <div class="cell">
-          <div class="card">
-            <img src="/Images/Projects/Satellite Technical Report/web.space.oneweb.stage.jpg" id="featured-image-1">
-            <div class="card-section">
-              <h4 id="featured-title-1">Global Satellite Network Analysis</h4>
-              <p>This is a technical report regarding the development of global satellite networks I developed in my
-                technical report writing course. With the emergence of SpaceX’s Starlink and other LEO constellations,
-                this report analyzes the viability of producing satellite networks with varying conditions.</p>
-              <a href="/pages/projects.html#featured-project-1" class=" button" id="featured-button-1"" class=" button"
-                id="featured-button-1">Learn More</a>
-            </div>
-          </div>
-        </div>
-        <div class="cell">
-          <div class="card">
-            <img src="/Images/Projects/Arduino Lightsaber/20200616_011515_edit.jpg" id="featured-image-2">
-            <div class="card-section">
-              <h4 id="featured-title-2">Arduino Lightsaber</h4>
-              <p>The Arduino Lightsaber is a custom made and designed lightsaber replica using an Arduino Nano to
-                control 288 LEDs and an unlimited amount of sound fonts.</p>
-              <a href="/pages/projects.html#featured-project-2" class="button" id="featured-button-2">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <footer class="footer cell">
     <span>

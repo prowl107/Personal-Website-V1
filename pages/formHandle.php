@@ -8,7 +8,7 @@
     <meta http-equiv = "refresh" content = "4; url = https://www.milesosborne.com" />
     <title>Thank You</title>
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css?version=1.2">
 </head>
 
 <body>

@@ -37,14 +37,4 @@ if (document.URL.includes('index.html')) {
             document.getElementById('featured-image-2').style.transition = "all .25s ease-in-out";
         }
     }
-
-    // //Projects page button handle:
-    // button1.onclick = function () {
-    //     document.location = "/pages/projects.html#featured-project-1";
-    // }
-
-    // //Projects page button handle:
-    // button2.onclick = function () {
-    //     document.location = "/pages/projects.html#featured-project-2";
-    // }
 }

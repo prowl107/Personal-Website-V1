@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects</title>
     <link rel="stylesheet" href="/css/foundation.min.css" />
-    <link rel="stylesheet" href="/css/app.css?version=1.3" />
+    <link rel="preload" href="/css/app.css?version=1.3.2" as="style"/>
+    <link rel="stylesheet" href="/css/app.css?version=1.3.2" media="print" onload="this.media='all'"/>
     <link rel="stylesheet" href="/resources/foundation-icons/foundation-icons/foundation-icons.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link
@@ -33,6 +34,7 @@
                     <li><a href="/index.html">Home</a></li>
                     <li><a href="/pages/projects.html">Projects</a></li>
                     <li><a href="https://milesosborne.dev" target="_blank">Blog</a></li>
+                    <li><a href="https://www.github.com/prowl107" target="_blank">GitHub</a></li>
                     <li><a href="/pages/contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -45,16 +47,15 @@
                 <div class="cell large-6 medium-12 project-description">
                     <h3>Arduino Lightsaber</h3>
                     <p>The Arduino Lightsaber is a custom made and designed lightsaber replica using an Arduino Nano to
-                        control 288 LEDs and an unlimited amount of sound fonts.</p>
+                        control 288 LEDs and an potentially unlimited amount of sound fonts.</p>
                     <ul>
                         <li>Powered by Arduino Nano Every microcontroller
                         </li>
                         <li>Designed all physical components and handle in Autodesk Fusion 360
                         </li>
-                        <li>Using 2x ws2812 RGB LED strips contained in polycarbonate blade
+                        <li>Using 2x ws2812 RGB LED strips contained in polycarbonate tube
                         </li>
-                        <li>
-                            3D printed handle in Nylon 12 through Xometry Service
+                        <li>3D printed handle in Nylon 12 through Xometry Service
                         </li>
                         <li>User-programmable sounds and on the fly color changing
                         </li>
@@ -109,17 +110,17 @@
             <div class="grid-x grid-margin-x">
                 <div class="cell large-6 medium-12 project-description">
                     <h3>Project Spectre - Software Lead</h3>
-                    <p>Project Spectre is an active stabilized rocket designed by my university's Experimental Rocket
+                    <p>Project Spectre is an active stabilized rocket designed ERAU's Experimental Rocket
                         Propulsion Lab (ERPL). My role is developing the Spectre Module which is comprised of the
                         hardware and software that will accomplish the active stabilization.</p>
                     <ul>
-                        <li>Developing an active stabilization unit using an Arduino Nano Every and servos to actuate
-                            canards
+                        <li>Developing active stabilization unit based on Arduino Nano Every microcontroller
+                        </li>
+                        <li>Modifying library interfaces for peripherals including servos, sensors, and breakout boards
+                        </li>
+                        <li>Teaching new members fundamentals of software development process
                         </li>
                         <li>Created wiring diagrams and documentation for hardware integration
-                        </li>
-                        <li>Tested different electronic components such as IMUs, servos, breakout boards,
-                            and microcontrollers to verify the functionaility and effectiveness
                         </li>
                     </ul>
                 </div>
@@ -165,7 +166,7 @@
         <div class="project grid-container">
             <div class="grid-x grid-margin-x">
                 <div class="cell large-6 medium-12 project-description">
-                    <h3>Personal Portfolio Website</h3>
+                    <h3>Personal Website V1</h3>
                     <p>This website was my first endeavor into web development and what I think will be a never
                         ending journal of sorts. It's gone through many design changes and I'm proud of what it has
                         evolved into.</p>
@@ -174,11 +175,7 @@
                         </li>
                         <li>Utilizing the Zurb Foundation CSS Framework</li>
                         <li>Later implemented PHP and JavaScript for form validation and some dynamic elements</li>
-                        <li>
-                            Currently developing a blog section to explain projects in much greater depth
-                        </li>
-                        <li>
-                            Backgrounds by <a class="project-links" href="https://www.pexels.com/@danny-meneses-340146"
+                        <li>Backgrounds by <a class="project-links" href="https://www.pexels.com/@danny-meneses-340146"
                                 target="_blank">Danny Meneses</a>,
                             <a class="project-links" href="https://unsplash.com/@harrisonbroadbent"
                                 target="_blank">Harrison Broadbent</a>,
@@ -350,7 +347,6 @@
         <span>
             <p> Miles A. Osborne </p>
             <a href="https://www.github.com/prowl107"><i class="fi-social-github"></i></a>
-            <a href="http://steamcommunity.com/id/prowl107"><i class="fi-social-steam"></i></a>
             <a href="https://www.linkedin.com/in/milesosborne"><i class="fi-social-linkedin"></i></a>
         </span>
     </footer>

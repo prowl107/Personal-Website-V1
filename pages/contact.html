@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="/css/foundation.min.css" />
-    <link rel="preload" href="/css/app.css?version=1.3.2" as="style"/>
-    <link rel="stylesheet" href="/css/app.css?version=1.3.2" media="print" onload="this.media='all'"/>
+    <?php $cssVersion = "1.3.3"; ?>
+    <link rel="preload" href="/css/app.css?version=<?php echo $cssVersion; ?>" as="style"/>
+    <link rel="stylesheet" href="/css/app.css?version=<?php echo $cssVersion; ?>" media="print" onload="this.media='all'"/>
     <link rel="stylesheet" href="/resources/foundation-icons/foundation-icons/foundation-icons.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link
